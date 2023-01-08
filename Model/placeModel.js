@@ -13,7 +13,7 @@ const placeSchema = new mongoose.Schema(
     },
     image: {
       type: String,
-      required: [true, "A place must have a image"],
+      // required: [true, "A place must have a image"],
     },
     description: {
       type: String,
